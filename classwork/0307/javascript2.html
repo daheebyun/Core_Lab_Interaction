@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="UTF=8";
+<html>
+<head>
+</head>
+<body>
+<script>
+var anumber = 5; 
+var astring = "Dahee";
+//only put "" around strings//
+var abool = 5 <= 5;
+var avariable;
+//is the same things as saying: var avariable = undefined;//
+var integer = 6; 
+var float = 3.14159;
+var high = Infinity;
+//can type +/- infinity//
+//infinity=highest #//
+var low = -Infinity;
+
+// console.log(anumber);
+// console.log(astring);
+// console.log(abool);
+// console.log(avariable);
+
+////////////////////////////////////////////////////////////
+
+var leftleft = "Jiayi";
+var left = "Se Jung";
+var me = "Dahee";
+var right = "Abby";
+var rightright = "Alessio";
+
+var classmates = [];
+//empty array, empty shelf//
+
+
+//var classmates = ["Jiayi", "Se Jung", "Dahee", "Abby", "Alessio"];
+var classmates = ["leftleft", "left", "me", "right", "rightright"];
+
+
+console.log(classmates);
+
+console.log("Dahee" + 24);
+console.log(classmates[0] + 24);
+//computer starts to count from 0//
+
+classmates.push("Robby");
+console.log(classmates);
+
+////////////////////////////////////////////////////////////
+
+// var randomnumber = Math.random() * 6;
+//between 0.0 and 1.0//
+var randomnumber = Math.random() * 6;
+//곱하기 6 하면 between 0.0 ~ 6.0//
+
+randomnumber = parseInt(randomnumber);
+//turn this random # into a integer from 0 ~ 5//
+
+console.log(randomnumber);
+//turn this random # into a integer (소수점x) from 0 to 5//
+
+var randomClassmate = classmates[randomnumber];
+
+document.body.innerHTML = randomClassmate;
+//display on html//
+
+</script>
+</body>
+</html>

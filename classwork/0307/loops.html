@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html,body{height: 100%;}
+/*if the color is not showing, add this line*/
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+div{
+	flex: 1;
+}
+</style>
+</head>
+<body>
+<script>
+
+
+var counter = 0;
+while(counter < 10){
+	var d = document.createElement("div");
+	//div = virtual object; created element//
+
+	var red = parseInt (Math.random ()*256);
+	var green = parseInt (Math.random ()*256);
+	var blue = parseInt (Math.random ()*256);
+	//generating different hsl//
+
+	var color = "rgb( " + red + ", " + green + ", " + blue + ")";
+	//			 rgb"(random #, random #, random #)";
+	//=string
+	console.log(color);
+	d.style.backgroundColor = color;
+	document.body.appendChild(d);
+	counter = counter + 1;
+}
+</script>
+</body>
+</html>

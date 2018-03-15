@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+	position: absolute;
+}
+</style>
+</head>
+<body>
+<script>
+var counter = 0;
+while(counter < 1000){
+	var d = document.createElement("div");
+	var color = Math.random() * 360;
+	var colorString = "hsl(" + color + ", 100%, 50%)";
+	var width = parseInt (Math.random ()*1000) + "px";
+	var height = parseInt (Math.random ()*1000) + "px";
+
+	d.style.backgroundColor = colorString;
+	d.style.width = width;
+	d.style.height = height;
+	document.body.appendChild(d);
+
+	counter = counter + 1;
+}
+
+</script>
+</body>
+</html>
