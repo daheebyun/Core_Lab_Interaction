@@ -1,0 +1,17 @@
+{
+	"name": ["Dahee","Byun"],
+	"home": {
+		"latitude": 37.6489072,
+		"longitude": 127.0606204
+	},
+	"url": "http://opinky0204.wixsite.com/daheebyun0204",
+	"favorites": {
+		"color": "ff0000",
+		"book" : {
+			"title" : "Alice in Wonderland",
+			"author" : "Lewis Carroll"
+		},
+		"tool": "brush",
+		"temperature" : 17
+	}
+}
