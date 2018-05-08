@@ -21,16 +21,16 @@ while(counter < 1000){
 	var colorString = "hsl(" + color + ", 100%, 50%)";
 	var width = parseInt(Math.random()*1000) + "px";
 	var height = parseInt(Math.random()*1000) + "px";
-	var windowWidth = window.innerWidth;
-	var windowHeight = window.innerHeight;
-	var top = parseInt(Math.random()*windowWidth) + "px";
-	var left = parseInt(Math.random()*windowHeight) + "px";
+	var top = parseInt(Math.random()*1000) + "px";
+	var left = parseInt(Math.random()*1000) + "px";
+	var bottom = parseInt(Math.random()*1000) + "px";
 
 	d.style.backgroundColor = colorString;
 	d.style.width = width;
 	d.style.height = height;
 	d.style.top = top;
 	d.style.left = left;
+	d.style.bottom = bottom;
 	document.body.appendChild(d);
 
 	counter = counter + 1;

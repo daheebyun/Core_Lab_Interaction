@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<input type="file" id="files">
+	<button type="button" id="button" class="btn btn-danger">Danger</button>
+	<pre id ="contnets"></pre>
+</body>
+<script>
+document.getElmentById("files").onchange = function(){
+	var file = document.getElmentById("files").files[0];
+	console.log(file);
+	var reader = new FileReader();
+	reader.onloadend = function(event){
+		console.log(event.target.result); 
+		document.getElmentById("contents").innterHTML = result;
+	read.readAsText(file);
+	}
+}
+</script>
+</html>

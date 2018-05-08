@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<script>
+
+var urls = [
+"https://raw.githubusercontent.com/hwans015/CoreInteractionLab/master/Homework/HW06_040718/sejung.json",
+"https://raw.githubusercontent.com/carolaguivel/CoreLabInteraction/master/Homework/Homework%206/carolyn.json",
+"https://raw.githubusercontent.com/Xingmann/CoreInteractionLab/master/Homework/xingman-hw6.json",
+"https://raw.githubusercontent.com/ewolf0/CoreInteraction/master/homework/hw06/ellie.json",
+"https://raw.githubusercontent.com/sancl877/InteractWithMeZaddy.github.io/master/homework/leo.json",
+"https://raw.githubusercontent.com/Alessiosegala/Core-Lab-2018/master/homework%206%20json/alessiosegala.json",
+"https://raw.githubusercontent.com/vivekafc/coreinteraction/master/homework/json/vivek.json",
+"https://raw.githubusercontent.com/dadadadahee/dadadadahee.github.io/master/dahee-choi.json",
+"https://raw.githubusercontent.com/Elinaaaaa/S18-CoreInteraction/master/homework/assignment6.json",
+"https://raw.githubusercontent.com/simonesciacovelli/coreinteraction/master/homework/homework6/simon.json",
+"https://raw.githubusercontent.com/traschillo/CoreInteraction/master/homework/taylor.json"
+];
+
+var classmates = [];
+
+//console.log(urls)
+
+for(var i = 0; i < urls.length; i = i + 1){
+	$.getJSON(urls[i], function(data){
+		//variable 정렬 
+		console.log(data);
+			//data전체다 부름
+		//console.log(data.name[0]);
+			//이름만; 한번에 안에 있는 모든 정보는 못 얻음
+		classmates.push(data);
+		//console.log(classmates);
+			//이거 안됨
+		if(classmates.length == urls.length){
+		//== : equal 
+			weDone();
+		}
+	});
+}
+
+function weDone(){
+	console.log("we made it"); 
+	console.log(classmates);
+	for(var i = 0; i < classmates.length; i = i + 1){
+
+		classmates[i].name 
+		//this is the array 
+
+		var namearray = classmates[i].name; 
+		var fullname = ""; 
+		for (var j = 0; j < namearray.length; j = j + 1){
+			fullname = fullname + namearray[j] + " ";
+
+		}
+		//이 loop는 full name 
+		var p = document.createElement("p"); 
+		p.innerHTML = fullname;
+		//중요
+		document.body.appendChild(p);
+	}
+	//이 loop는 각 individuals한테 안에 있는 full name loop를줌;
+}
+</script>
+</body>
+</html>

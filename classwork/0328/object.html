@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+console.log(["temp", "chanceofrain", "humidity"]
+	[48.15, .1, .5])
+
+// array 
+// []
+// object 
+// {}
+
+//obj: description (key) & variable (value) 
+//key comes 1st 
+
+var number = 5;
+var weather = {
+	"temperature" : 48.15,
+	"chanceofrain" : .1,
+	"humidity": .5
+}
+
+console.log(weather);
+
+console.log(weather["temperature"]);
+
+var doublearray = [
+	["apple","pear"],
+	["strawberry","blueberry"],
+	["potato","leek"]
+]
+
+console.log(doublearray[1]);
+//get strawberry & blueberry
+
+console.log(doublearray[1][1]);
+//get only blueberry
+//position inside the 2nd array
+
+var innerArray = doublearray[1];
+console.log(innerArray[1]); 
+//same method as console.log(doublearry[1][1]);
+
+var classmates = {
+	"Dahee" : {
+		"breakfast" : "rice",
+		"animal" : "cat"
+	},
+	"Abby" : {
+		"breakfast" : "pancake",
+		"animal" : "puppy",
+	},
+	"Jiayi" : {
+		"breakfast" : "milk",
+		"animal" : "cat",
+	}
+}
+console.log(classmates);
+console.log(classmates["Dahee"]["animal"]);
+//array랑은 다르게 # use (x)
+//["string/key"]["string/key"] -> to pull out specific value
+//how to get "cat"
+
+</script>
+</body>
+</html>

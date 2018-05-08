@@ -60,35 +60,55 @@ p{
 .m{margin-top:1.5em;}
 .m1{margin-top:33px;}
 
-@media (max-width: 600px){
-  [class*="column-"]{
-    width: 100%;
+@media (max-width: 1300px) {
+	#both_columns {
+	  width: 100%;
+	  height: 100%;
+	}
+
+	#both_columns div {
+	  width: auto;
+	  float: left;
+	}
+}
+
+@media (max-width: 660px) {
+  .column2 {
+  	position: absolute;
+  	left: 0;
+  }
+  .column {
+  	position: absolute;
+  	right: 0;
   }
 }
 </style>
 
 </head>
 <body>
-<h1>Mad Hatter's Tea Party</h1>
-<div class="img">
-<img src="2.jpg" alt="">
-</div>
-  <div class="column">
-    <h2><u>Entree</u></h2>
-    <br><u><h2>Sides</u></h2>
-    <br><br><br><br><br><br><u><h2>Drink</u></h2>
-    <br><u><h2 class="m1">Dessert</u></h2>
-  </div>
-  <div class="column2">
-  	<p>Playing Card Sandwiches</p><br><br>
-  	<p>Cheese and Tomato "mushrooms"</p>
-  	<p>Cauliflower "rabbit's tails"</p>
-  	<p>"Mad Hatter" Cucumbers</p>
-  	<p>Cheshire Cat "smiles"</p><br>
-  	<p class="m">Drink Me juice boxes</p>
-  	<p>English Breakfast</p><br>
-  	<p>Eat Me cookies</p>
-  </div>
-</div>
+	<div>
+		<h1>Mad Hatter's Tea Party</h1>
+		<div class="img">
+			<img src="2.jpg" alt="">
+		</div>
+	</div>
+	<div id='both_columns'>
+	  <div class="column">
+	    <h2><u>Entree</u></h2>
+	    <br><u><h2>Sides</u></h2>
+	    <br><br><br><br><br><br><u><h2>Drink</u></h2>
+	    <br><u><h2 class="m1">Dessert</u></h2>
+	  </div>
+	  <div class="column2">
+	  	<p>Playing Card Sandwiches</p><br><br>
+	  	<p>Cheese and Tomato "mushrooms"</p>
+	  	<p>Cauliflower "rabbit's tails"</p>
+	  	<p>"Mad Hatter" Cucumbers</p>
+	  	<p>Cheshire Cat "smiles"</p><br>
+	  	<p class="m">Drink Me juice boxes</p>
+	  	<p>English Breakfast</p><br>
+	  	<p>Eat Me cookies</p>
+	  </div>
+	</div>
 </body>
 </html>
