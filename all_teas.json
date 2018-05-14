@@ -132,42 +132,42 @@
 
 		{
 		"teaName" : "Black tea",
-		"imageUrl" : "images/Black tea.png",
+		"imageUrl" : "images/black.png",
 		"url" : "images/25.jpg"
 		},
 		{
 		"teaName" : "Goji tea",
-		"imageUrl" : "images/Goji tea.png",
+		"imageUrl" : "images/goji.png",
 		"url" : "images/26.jpg"
 		},
 		{
 		"teaName" : "Omija tea",
-		"imageUrl" : "images/Omija tea.png",
+		"imageUrl" : "images/omija.png",
 		"url" : "images/27.jpg"
 		},
 		{
 		"teaName" : "Yulmu tea",
-		"imageUrl" : "images/Yulmu tea.png",
+		"imageUrl" : "images/yulmutea.png",
 		"url" : "images/28.jpg"
 		},
 		{
-		"teaName" : "Ginkgo Gray",
-		"imageUrl" : "images/Ginkgo Gray.png",
+		"teaName" : "Ginkgo tea",
+		"imageUrl" : "images/ginkgo.png",
 		"url" : "images/29.jpg"
 		},
 		{
-		"teaName" : "Hibiscus Gray",
-		"imageUrl" : "images/Hibiscus Gray.png",
+		"teaName" : "Hibiscus tea",
+		"imageUrl" : "images/hibiscus.png",
 		"url" : "images/30.jpg"
 		},
 		{
-		"teaName" : "Ginseng Gray",
-		"imageUrl" : "images/Ginseng Gray.png",
+		"teaName" : "Ginseng tea",
+		"imageUrl" : "images/ginseng.png",
 		"url" : "images/31.jpg"
 		},
 		{
-		"teaName" : "Reishi Gray",
-		"imageUrl" : "images/Reishi Gray.png",
+		"teaName" : "Reishi tea",
+		"imageUrl" : "images/reishi.png",
 		"url" : "images/32.jpg"
 		}
 	],
