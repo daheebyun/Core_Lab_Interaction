@@ -2,18 +2,18 @@
 	 "calm" : [
 		{
 			"teaName" : "Chamomile tea",
-			"imageUrl" : "/images/Chamomile tea.png",
-			"url" : "/images/1.jpg"
+			"imageUrl" : "images/Chamomile tea.png",
+			"url" : "images/1.jpg"
 		},
 		{
 			"teaName" : "Passion flower tea",
-			"imageUrl" : "/images/Passion flower tea.png",
-			"url" : "/images/2.jpg"
+			"imageUrl" : "images/Passion flower tea.png",
+			"url" : "images/2.jpg"
 		},
 		{
 			"teaName" : "Solomon's seal tea",
-			"imageUrl" : "/images/Solomon's seal tea.png",
-			"url" : "/images/3.jpg"
+			"imageUrl" : "images/Solomon's seal tea.png",
+			"url" : "images/3.jpg"
 		},
 		{
 			"teaName" : "Barely tea",
