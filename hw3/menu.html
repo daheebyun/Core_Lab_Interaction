@@ -49,7 +49,7 @@ p{
 
 }
 .column2 {
-  float: left;
+  float: right;
   width: 637px;
   padding: 10px;
   height:300px;
@@ -59,6 +59,18 @@ p{
 }
 .m{margin-top:1.5em;}
 .m1{margin-top:33px;}
+
+
+.leftcolumn{
+  width: 300px;
+  float: left;
+}
+
+.rightcolumn{
+  width: 300px;
+  float: right;
+}
+
 
 @media (max-width: 1300px) {
 	#both_columns {
@@ -110,5 +122,27 @@ p{
 	  	<p>Eat Me cookies</p>
 	  </div>
 	</div>
+
+
+  <div class="leftcolumn">
+    <div column>
+      <h2>Entree</h2>
+
+    </div>
+    <div>
+      <p>Playing Card Sandwiches</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div column>
+      <h2>Entree</h2>
+
+    </div>
+    <div>
+      <p>Playing Card Sandwiches</p>
+    </div>
+  </div>
+<!--   마지막에 float:none; -->
 </body>
 </html>
